@@ -83,3 +83,12 @@ main { padding: 2.5rem 0 3.5rem; }
 
 .brand-logo{height:40px;width:auto;display:block}
 .brand-logo-lg{height:72px;width:auto;max-width:100%;margin:0 0 1rem}
+
+.brand .logo {
+  display: block;
+  height: 40px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+}
+.brand .mark { display: none; }
