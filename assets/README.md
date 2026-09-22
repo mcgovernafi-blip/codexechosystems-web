@@ -1,5 +1,7 @@
 # Asset notes
 
-No logo image is included yet. The site currently uses a CSS text wordmark for Codex Echo Systems.
+Public neon branding uses the approved transparent CES mark (real alpha, no white matte):
 
-When the final mark is approved, add it as `assets/logo.png` and update the header markup as needed.
+- `logo-neon.png` — canonical transparent neon (705×592).
+- `logo-neon-header.png` — header size (440×369).
+- `logo-neon-hero.png` — hero size (640×537).
