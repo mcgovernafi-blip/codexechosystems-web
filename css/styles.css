@@ -92,6 +92,20 @@ main { padding: 2.5rem 0 3.5rem; }
 .card h2 { margin: 0 0 0.55rem; font-size: 1.15rem; color: var(--lime); }
 .card p { margin: 0 0 0.75rem; color: var(--muted); }
 .card p:last-child { margin-bottom: 0; }
+.founder-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+.founder-portrait {
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(45, 226, 230, 0.45);
+  box-shadow: 0 0 0 1px rgba(139, 92, 255, 0.25), 0 0 22px rgba(45, 226, 230, 0.22);
+  background: #0b0f1a;
+}
 .meta { color: var(--muted); font-size: 0.92rem; }
 .site-footer {
   border-top: 1px solid var(--border);
@@ -103,4 +117,6 @@ main { padding: 2.5rem 0 3.5rem; }
 @media (max-width: 640px) {
   .nav { flex-direction: column; align-items: flex-start; }
   .brand .logo { width: min(240px, 78vw); height: auto; }
+  .founder-row { flex-direction: column; }
+  .founder-portrait { width: min(220px, 72vw); }
 }
