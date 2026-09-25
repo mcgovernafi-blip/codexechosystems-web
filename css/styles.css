@@ -106,10 +106,6 @@ main { padding: 2.5rem 0 3.5rem; }
   box-shadow: 0 0 0 1px rgba(139, 92, 255, 0.25), 0 0 22px rgba(45, 226, 230, 0.22);
   background: #0b0f1a;
 }
-.founder cite {
-  font-style: italic;
-  color: var(--text);
-}
 .meta { color: var(--muted); font-size: 0.92rem; }
 .site-footer {
   border-top: 1px solid var(--border);
